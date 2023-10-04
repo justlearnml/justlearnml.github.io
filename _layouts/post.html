@@ -2,15 +2,13 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }}</p>
+<p class="date">{{ page.date | date_to_string }}</p>
 
-<p>Tags</p>
-
-<ul>
-    {% for tag in site.tags %}
-        {% if page.tags contains tag.name %}
-            <li><a href="{{ tag.url }}">{{ tag.name }}</a></li>
-        {% endif %}
+<ul class="tags-ul">
+    {% for tag in page.tags %}
+        <li class="tag-li-inline">
+            <a href="/tags/{{ tag | downcase }}.html">#{{ tag }}</a>
+        </li>
     {% endfor %}
 </ul>
 

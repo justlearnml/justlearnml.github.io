@@ -9,21 +9,25 @@
     margin: 0
 }
 
-.post-li {
-    .title {
+li.post-li, li.tag-li {
+    h2 {
         border-bottom: none;
         padding-bottom: 0;
         margin-bottom: 0;
     }
-
-    .date {
-        color: #666;
-        margin: 0;
-        font-size: 12px;
+    > p {
+        margin-top: 8px;
+        margin-bottom: 0;
     }
 }
 
-.tag-li {
+.tag-li-inline {
     display: inline;
+    font-size: 12px;
+}
+
+p.date {
+    color: #666;
+    margin: 0;
     font-size: 12px;
 }

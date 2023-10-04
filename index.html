@@ -1,4 +1,9 @@
 ---
-title: Home
+layout: default
+title: Just Learn ML - Latest Posts
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>Latest Posts</h1>
+
+{% assign filteredPosts = site.posts %}
+
+{% include posts.html %}
