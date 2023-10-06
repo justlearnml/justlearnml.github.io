@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+footer {
+    height: 50px;
+}
+
 .posts-ul, .tags-ul {
     list-style-type: none;
     padding: 0 !important;
@@ -30,4 +34,22 @@ p.date {
     color: #666;
     margin: 0;
     font-size: 12px;
+}
+
+.language-python {
+    .k {
+        color: #cf222e;
+    }
+
+    .ow, .mi, .o {
+        color: #0550ae;
+    }
+
+    .c1 {
+        color: #6e7781
+    }
+
+    .nf, .nb {
+        color: #6639ba;
+    }
 }
