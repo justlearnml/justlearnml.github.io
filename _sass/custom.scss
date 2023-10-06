@@ -36,8 +36,8 @@ p.date {
     font-size: 12px;
 }
 
-.language-python {
-    .k {
+.language-python, .language-javascript {
+    .k, .kd {
         color: #cf222e;
     }
 
