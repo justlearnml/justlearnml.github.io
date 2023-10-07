@@ -1,5 +1,5 @@
 ---
-tags: ["Javascript", "Programming", "Python"]
+tags: ["JavaScript", "Programming", "Python"]
 metaDescription: Learn how to use infinity and negative infinity in Python and JavaScript to set range boundaries.
 ---
 
@@ -17,7 +17,7 @@ Here's an example code to find the minimum value from a list without using a bui
         return min
 ```
 
-In Javascript, they are `Number.POSITIVE_INFINITY` and `Number.NEGATIVE_INFINITY`.
+In JavaScript, they are `Number.POSITIVE_INFINITY` and `Number.NEGATIVE_INFINITY`.
 Here's the code.
 
 ```javascript
