@@ -1,4 +1,5 @@
 ---
+title: "Bubble, Insertion, and Selection Sorts"
 tags: ["Algorithm", "Programming", "Sorting"]
 metaDescription: Discover the Basics of Bubble, Insertion, and Selection Sorting Algorithms and How They Work
 ---
